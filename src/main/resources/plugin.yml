@@ -1,0 +1,22 @@
+name: MinePaySign
+main: cc.ranmc.Main
+description: 'MinePay'
+website: https://minepay.top/
+author: Ranica
+version: Realease 2.0
+api-version: "1.20"
+depend: [MinePay , SignMenuFactory]
+
+permissions: 
+  mps.user:
+    default: true
+    description: 'user only'
+
+  mps.admin:
+    default: op
+    description: 'admin only'
+
+commands:
+  mps:
+    description: mps
+    usage: /<command>
