@@ -28,7 +28,7 @@ public class Main extends JavaPlugin implements Listener {
         print("&chttps://minepay.top/");
         print("&e-----------------------");
 
-        loadConfig();
+        //loadConfig();
 
         //注册Event
         Bukkit.getPluginManager().registerEvents(this, this);
